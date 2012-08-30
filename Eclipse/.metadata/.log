@@ -1,0 +1,42 @@
+!SESSION 2012-08-29 10:49:06.363 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/toddpickell/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/toddpickell/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-08-29 10:51:10.203
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-08-29 10:53:14.756
+!MESSAGE Cookie rejected: "$Version=0; JSESSIONID=A725AE8C12BB2DC239CF105265CA2FB1; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/eclipse/update-site/e3.5/content.jar"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-08-29 10:53:14.757
+!MESSAGE Cookie rejected: "$Version=0; JSESSIONID=A725AE8C12BB2DC239CF105265CA2FB1; $Path=/; $Domain=.collab.net". Domain attribute ".collab.net" violates RFC 2109: host minus domain may not contain any dots
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-08-29 10:53:14.850
+!MESSAGE Cookie rejected: "$Version=0; JSESSIONID=F398CD1149D70173E9C9F9D0DB64B361; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/eclipse/update-site/e3.5/content.xml"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2012-08-29 10:53:14.850
+!MESSAGE Cookie rejected: "$Version=0; JSESSIONID=F398CD1149D70173E9C9F9D0DB64B361; $Path=/; $Domain=.collab.net". Domain attribute ".collab.net" violates RFC 2109: host minus domain may not contain any dots
+!SESSION 2012-08-29 12:39:27.968 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/toddpickell/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/toddpickell/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-08-29 12:39:52.705
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2012-08-29 12:54:08.315 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/toddpickell/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Volumes/XtraDisk/Development Stuff/JavaStuff/Eclipse -product org.eclipse.epp.package.java.product -keyring /Users/toddpickell/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-08-29 12:54:16.164
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

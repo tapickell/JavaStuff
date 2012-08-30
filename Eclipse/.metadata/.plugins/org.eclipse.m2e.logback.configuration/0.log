@@ -1,0 +1,7 @@
+2012-08-29 10:52:00,820 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.3.v20120522
+2012-08-29 10:52:00,913 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:55557
+2012-08-29 10:53:14,755 [Worker-7] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=A725AE8C12BB2DC239CF105265CA2FB1; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/eclipse/update-site/e3.5/content.jar"
+2012-08-29 10:53:14,757 [Worker-7] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=A725AE8C12BB2DC239CF105265CA2FB1; $Path=/; $Domain=.collab.net". Domain attribute ".collab.net" violates RFC 2109: host minus domain may not contain any dots
+2012-08-29 10:53:14,849 [Worker-2] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=F398CD1149D70173E9C9F9D0DB64B361; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/eclipse/update-site/e3.5/content.xml"
+2012-08-29 10:53:14,850 [Worker-2] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=F398CD1149D70173E9C9F9D0DB64B361; $Path=/; $Domain=.collab.net". Domain attribute ".collab.net" violates RFC 2109: host minus domain may not contain any dots
+2012-08-29 11:33:08,584 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}
