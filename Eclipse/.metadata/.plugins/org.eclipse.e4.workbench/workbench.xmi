@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_WF9SwPHxEeGBupcKtIzw-Q" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_WF9SwfHxEeGBupcKtIzw-Q" bindingContexts="_WF9SyvHxEeGBupcKtIzw-Q">
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_WF9SwfHxEeGBupcKtIzw-Q" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_WustwfHxEeGBupcKtIzw-Q" x="272" y="30" width="1249" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_WF9SwfHxEeGBupcKtIzw-Q" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_WustwfHxEeGBupcKtIzw-Q" x="194" y="45" width="1249" height="768">
     <tags>topLevel</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_WustwfHxEeGBupcKtIzw-Q" selectedElement="_WutU0PHxEeGBupcKtIzw-Q" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_WutU0PHxEeGBupcKtIzw-Q" elementId="PerspectiveStack" containerData="7500" selectedElement="_XDfSAPHxEeGBupcKtIzw-Q">
@@ -83,7 +83,7 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_XDf5G_HxEeGBupcKtIzw-Q" elementId="org.eclipse.egit.ui.RepositoriesView" toBeRendered="false" ref="_XDbAkPHxEeGBupcKtIzw-Q"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_XDf5HPHxEeGBupcKtIzw-Q" containerData="8337" selectedElement="_XDggKfHxEeGBupcKtIzw-Q">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_XDf5HPHxEeGBupcKtIzw-Q" containerData="8337" selectedElement="_XDggIPHxEeGBupcKtIzw-Q">
               <children xsi:type="basic:PartSashContainer" xmi:id="_XDggIPHxEeGBupcKtIzw-Q" containerData="7500" selectedElement="_XDggIfHxEeGBupcKtIzw-Q" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_XDggIfHxEeGBupcKtIzw-Q" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_W_2IIPHxEeGBupcKtIzw-Q"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_XDggIvHxEeGBupcKtIzw-Q" containerData="2500" selectedElement="_XDggI_HxEeGBupcKtIzw-Q">
@@ -183,15 +183,10 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_W_2IIPHxEeGBupcKtIzw-Q" elementId="org.eclipse.ui.editorss" selectedElement="_W_2IIfHxEeGBupcKtIzw-Q">
-      <children xsi:type="basic:PartStack" xmi:id="_W_2IIfHxEeGBupcKtIzw-Q" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_NJGnUPIDEeGK8dB6pQ1sgA">
+      <children xsi:type="basic:PartStack" xmi:id="_W_2IIfHxEeGBupcKtIzw-Q" elementId="org.eclipse.e4.primaryDataStack">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_NJGnUPIDEeGK8dB6pQ1sgA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="HelloWorld.java" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/obj16/jcu_obj.gif" tooltip="ExploreEclipse/src/HelloWorld.java" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ExploreEclipse/src/HelloWorld.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_XA2NsPHxEeGBupcKtIzw-Q" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/eview16/package.gif" tooltip="Workspace" closeable="true">
