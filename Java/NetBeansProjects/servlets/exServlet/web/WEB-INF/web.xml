@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2eeg
+         http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+         
+    <servlet>
+        <servlet-name>
+            Example
+        </servlet-name>
+        <servlet-class>
+            com.wrox.servlets.ExampleServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            Example
+        </servlet-name>
+        <url-pattern>
+            *.myPage
+        </url-pattern>
+    </servlet-mapping>
+</web-app>
