@@ -13,8 +13,17 @@ import javax.servlet.http.*;
  *
  * @author toddpickell
  */
+@SuppressWarnings("serial")
 public class ExampleServlet extends HttpServlet {
     
+    /**
+     *
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
+    @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) 
                                          throws ServletException, IOException {
         
@@ -47,10 +56,26 @@ public class ExampleServlet extends HttpServlet {
             }
             
         }
+        out.println("<br>");
+        ServletConfig config = getServletConfig();
+        ServletContext context = getServletContext();
+        out.println("Values retrieved for the init prarmeters are: ");
+        out.println("URL: " + getInitParameter("URL"));
+        out.println("UID: " + config.getInitParameter("UID"));
+        out.println("PWD: " + config.getInitParameter("PWD"));
+        out.println("some-port: " + context.getInitParameter("some-port"));
         out.println("</body></html>");
         out.close();
     }
     
+    /**
+     *
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
+    @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response)
                                           throws ServletException, IOException {
         

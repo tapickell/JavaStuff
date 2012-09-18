@@ -3,21 +3,31 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2eeg
          http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+    <display-name>A Simple Application</display-name>
+    
+    <context-param>
+        <param-name>some-port</param-name>
+        <param-value>5000</param-value>
+    </context-param>
          
     <servlet>
-        <servlet-name>
-            Example
-        </servlet-name>
-        <servlet-class>
-            com.wrox.servlets.ExampleServlet
-        </servlet-class>
+        <servlet-name>init</servlet-name>
+        <servlet-class>com.wrox.servlets.ExampleServlet</servlet-class>
+        <init-param>
+            <param-name>URL</param-name>
+            <param-value>jdbc:odbc:testdb</param-value>
+        </init-param>
+        <init-param>
+            <param-name>UID</param-name>
+            <param-value>scott</param-value>
+        </init-param>
+        <init-param>
+            <param-name>PWD</param-name>
+            <param-value>password</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
-        <servlet-name>
-            Example
-        </servlet-name>
-        <url-pattern>
-            *.myPage
-        </url-pattern>
+        <servlet-name>init</servlet-name>
+        <url-pattern>/init</url-pattern>
     </servlet-mapping>
 </web-app>
