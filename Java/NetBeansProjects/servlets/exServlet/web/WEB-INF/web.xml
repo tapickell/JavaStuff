@@ -9,7 +9,20 @@
         <param-name>some-port</param-name>
         <param-value>5000</param-value>
     </context-param>
-         
+      
+    <servlet>
+        <servlet-name>goto</servlet-name>
+        <servlet-class>com.wrox.servlets.Goto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>forward</servlet-name>
+        <servlet-class>com.wrox.servlets.Forward</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>include</servlet-name>
+        <servlet-class>com.wrox.servlets.Include</servlet-class>
+    </servlet>     
+               
     <servlet>
         <servlet-name>init</servlet-name>
         <servlet-class>com.wrox.servlets.ExampleServlet</servlet-class>
@@ -26,6 +39,19 @@
             <param-value>password</param-value>
         </init-param>
     </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>goto</servlet-name>
+        <url-pattern>/Goto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>include</servlet-name>
+        <url-pattern>/Include</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>forward</servlet-name>
+        <url-pattern>/Forward</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>init</servlet-name>
         <url-pattern>/init</url-pattern>
