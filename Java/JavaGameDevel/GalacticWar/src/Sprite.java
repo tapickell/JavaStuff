@@ -1,8 +1,8 @@
-/*********************************************************
- * Beginning Java Game Programming, 3rd Edition
- * by Jonathan S. Harbour
- * Sprite class
- **********************************************************/
+/**
+ * @author Todd Pickell CISS 238
+ *         Chapter
+ *         Programming Challenge    pg
+ */
 import java.awt.*;
 import java.applet.*;
 

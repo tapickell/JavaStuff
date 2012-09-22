@@ -24,7 +24,7 @@ public class FirstApplet extends JFrame
 		g.fillRect(0, 0, 400, 400);
 		g.setColor(Color.orange);
 		g.setFont(new Font("Arial", Font.BOLD, 18));
-		g.drawString("Hey Buddy w/ a MoFo JFrame!", 60, 200);
+		g.drawString("Hey Buddy w/ a JFrame!", 60, 200);
 	}
 
 	public static void main(String[] args)

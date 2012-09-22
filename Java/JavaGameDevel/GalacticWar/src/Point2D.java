@@ -1,8 +1,8 @@
-/*********************************************************
- * Beginning Java Game Programming, 3rd Edition
- * by Jonathan S. Harbour
- * Point2D Class
- **********************************************************/
+/**
+ * @author Todd Pickell CISS 238
+ *         Chapter
+ *         Programming Challenge    pg
+ */
 class Point2D extends Object {
     private double x, y;
 

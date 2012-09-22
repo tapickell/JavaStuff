@@ -1,3 +1,8 @@
+/**
+ * @author Todd Pickell CISS 238
+ *         Chapter
+ *         Programming Challenge    pg
+ */
 import java.awt.*;
 
 /*********************************************************
